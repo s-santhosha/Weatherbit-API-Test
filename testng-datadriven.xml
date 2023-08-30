@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weatherbit API Test">
+
+    <listeners>
+        <listener class-name="test.java.Base.BaseTest"></listener>
+    </listeners>
+
+    <test name="Weatherbit Test">
+        <classes>
+            <class name="test.java.WeatherBitApiTests.LatLongTest"></class>
+            <class name="test.java.WeatherBitApiTests.MultipleCitiesTest"></class>
+<!--            <class name="test.java.WeatherBitApiTests.PostalCodeTest"></class>-->
+        </classes>
+    </test>
+</suite>
